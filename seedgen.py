@@ -10,7 +10,7 @@ def my_function():
         S = 15    
         ran = ''.join(random.choices(string.ascii_lowercase + string.digits, k = S))  
         #print(str(ran))
-        f.write("\n" + (str(ran)))
+        f.write(str(ran) + "\n")
     
 my_function()
 
