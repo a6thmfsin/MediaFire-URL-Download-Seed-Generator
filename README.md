@@ -7,3 +7,5 @@ Run with: wfuzz -c -w seeds.txt --hc=404 https://www.mediafire.com/file/FUZZ
 For example this link https://www.mediafire.com/file/c0o3k17wzxiq3g0/xor_output.txt/file only need the seed "c0o3k17wzxiq3g0" to redirect to the full download.
 
 Made by Greyhound
+
+![github](https://user-images.githubusercontent.com/63813294/162187569-ac217b84-3466-4553-99c3-0e3282fa8fea.png)
