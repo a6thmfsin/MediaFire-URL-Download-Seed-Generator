@@ -11,9 +11,7 @@ def my_function():
         ran = ''.join(random.choices(string.ascii_lowercase + string.digits, k = S))  
         #print(str(ran))
         f.write(str(ran) + "\n")
-    
-my_function()
-
+   
 x = threading.Thread(target=my_function)
 x.start()
 
