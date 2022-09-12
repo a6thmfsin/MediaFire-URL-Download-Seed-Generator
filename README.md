@@ -1,6 +1,5 @@
-# MediaFire-URL-Download-Seed-Generator
-The tool generates a wordlist with seeds to get access to random downloads which can contain some juicy stuff.Just run the tool and it will 
-generate a list of seeds for MediaFire downloads. Some are false-positives as the owner could have removed the file/folder.Seedgen made for MediaFire fishing in combination with wfuzz. S is for how many letters/numbers will be generated. Range is for how many seeds will be generated.
+# MediaFire-Redirect-Seed-Tool
+The tool generates a wordlist with seeds which you can fuzz MediaFire with and it will redirect you to random downloads which can contain some juicy stuff.Just run the tool and it will generate a list of seeds for MediaFire downloads. Some are false-positives as the owner could have removed the file/folder. Seedgen made for MediaFire pishing in combination with wfuzz. S is for how many letters/numbers will be generated. Range is for how many seeds will be generated.
 
 Run with: wfuzz -c -v -w seeds.txt --hc=404 https://www.mediafire.com/file/FUZZ (The URL can also be http://www.mediafire.com/download/*SEED*)
 
